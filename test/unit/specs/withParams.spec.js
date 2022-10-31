@@ -71,10 +71,7 @@ describe('withParams validator modifier', () => {
     expect(target.$sub[0]).to.deep.equal({
       a: 0,
       c: 3,
-      $sub: [
-        { a: 1, b: 2 },
-        { a: 2, b: 3 }
-      ]
+      $sub: [{ a: 1, b: 2 }, { a: 2, b: 3 }]
     })
   })
 })
